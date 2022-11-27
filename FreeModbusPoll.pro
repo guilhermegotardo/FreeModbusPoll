@@ -10,10 +10,12 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    modbuspoll.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    modbuspoll.h
 
 FORMS += \
     mainwindow.ui
